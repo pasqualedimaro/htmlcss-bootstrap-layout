@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap 5 Responsive Grid</title>
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h1 class="text-center">Bootstrap 5 Responsive Grid</h1>
+      <p class="text-center text-secondary">
+        Layout a griglia con diversi breakpoint (sm, md, lg).
+      </p>
+
+      <!--Prima riga: 2 colonne-->
+      <div class="row my-3">
+        <div class="col-12 col-md-6 col-lg-4 bg-light p-3">
+          <h2>Colonna 1</h2>
+          <p>
+            Larghezza intera su dispositivi piccoli, metà larghezza su
+            dispositivi medi e un terzo su dispositivi grandi.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-8 bg-secondary p-3 text-white">
+          <h2>Colonna 2</h2>
+          <p>
+            Larghezza intera su dispositivi piccoli, metà larghezza su
+            dispositivi medi e due terzi su dispositivi grandi.
+          </p>
+        </div>
+      </div>
+
+      <!--Seconda riga: 3 colonne-->
+      <div class="row my-3 text-white">
+        <div class="col-6 col-md-4 col-lg-4 bg-primary p-3">
+          <h3>Colonna 1</h3>
+          <p>
+            Metà larghezza su dispositivi piccoli e un terzo su dispositivi medi
+            e più grandi.
+          </p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-4 bg-success p-3">
+          <h3>Colonna 2</h3>
+          <p>
+            Metà larghezza su dispositivi piccoli e un terzo su dispositivi medi
+            e più grandi.
+          </p>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 bg-danger p-3">
+          <h3>Colonna 3</h3>
+          <p>
+            Larghezza intera su dispositivi piccoli (col-12) e un terzo su
+            dispositivi medi e più grandi.
+          </p>
+        </div>
+      </div>
+
+      <!--Terza riga: 4 colonne-->
+      <div class="row my-3 text-white">
+        <div class="col-6 col-md-3 col-lg-3 bg-info p-3">
+          <h2>Colonna 1</h2>
+          <p>
+            Metà larghezza su dispositivi piccoli e un quarto su dispositivi
+            medi e più grandi.
+          </p>
+        </div>
+        <div class="col-6 col-md-3 col-lg-3 bg-warning p-3">
+          <h2>Colonna 2</h2>
+          <p>
+            Metà larghezza su dispositivi piccoli e un quarto su dispositivi
+            medi e più grandi.
+          </p>
+        </div>
+        <div class="col-6 col-md-3 col-lg-3 bg-dark p-3">
+          <h2>Colonna 2</h2>
+          <p>
+            Metà larghezza su dispositivi piccoli e un quarto su dispositivi
+            medi e più grandi.
+          </p>
+        </div>
+        <div class="col-6 col-md-3 col-lg-3 bg-light text-dark p-3">
+          <h2>Colonna 2</h2>
+          <p>
+            Metà larghezza su dispositivi piccoli e un quarto su dispositivi
+            medi e più grandi.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
